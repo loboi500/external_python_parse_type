@@ -1,20 +1,3 @@
-include README.rst
-include LICENSE
-include .coveragerc
-include .editorconfig
-include *.py
-include *.rst
-include *.txt
-include *.ini
-include *.cfg
-include *.yaml
-include bin/invoke*
-
-recursive-include bin           *.sh *.py *.cmd
-recursive-include py.requirements  *.txt
-recursive-include tasks         *.py *.txt *.rst *.zip
-recursive-include tests         *.py
-# -- DISABLED: recursive-include docs          *.rst *.txt *.py
-
-prune .tox
-prune .venv*
+version https://git-lfs.github.com/spec/v1
+oid sha256:7f704791152376c5d5257a2e42e3d7ea96321f35d5aff34de8c9ef6fff612ba4
+size 452

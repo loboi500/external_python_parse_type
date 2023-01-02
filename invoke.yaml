@@ -1,30 +1,3 @@
-# =====================================================
-# INVOKE CONFIGURATION: parse_type
-# =====================================================
-# -- ON WINDOWS:
-# run:
-#   echo: true
-#   pty:  false
-#   shell: C:\Windows\System32\cmd.exe
-# =====================================================
-
-project:
-    name: parse_type
-    repo: "pypi"
-    # -- TODO: until upload problems are resolved.
-    repo_url: "https://upload.pypi.org/legacy/"
-
-tasks:
-     auto_dash_names: false
-
-run:
-    echo: true
-    # DISABLED: pty:  true
-
-cleanup_all:
-    extra_directories:
-      - build
-      - dist
-      - .hypothesis
-      - .pytest_cache
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:3a58cbb3f30cac7bac9729488be1697a62e8a3b8d65e9f71d263f86c51e7b7a7
+size 635

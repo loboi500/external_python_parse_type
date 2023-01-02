@@ -1,15 +1,3 @@
-Version History
-===============================================================================
-
-Version: 0.4.3 (2018-04-xx, unreleased)
--------------------------------------------------------------------------------
-
-CHANGES:
-
-* UPDATE: parse-1.8.3 (was: parse-1.8.2)
-  NOTE: ``parse`` module and ``parse_type.parse`` module are now identical.
-
-BACKWARD INCOMPATIBLE CHANGES:
-
-* RENAMED: type_converter.regex_group_count attribute (was: .group_count)
-  (pull-request review changes of the ``parse`` module).
+version https://git-lfs.github.com/spec/v1
+oid sha256:ac319249a7d00903d9f05b9a45c803a1de91350121b7b40c0387f5cc8b62428c
+size 509
